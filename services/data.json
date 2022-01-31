@@ -1,1 +1,20 @@
-{"asdf1234":{"name":"Subaru Legacy 2.0i 4x4","description":"202 800 km. Newly imported. Manual transmissin. Petrol engine","imageUrl":"subaruLegacy.jpg","price":3300},"aab4ca97-c6d6":{"name":"BMW X3","description":"My babies car.","imageUrl":"bmw.png","price":12000}}
+{
+  "asdf1234": {
+    "name": "Subaru Legacy 2.0i 4x4",
+    "description": "202 800 km. Newly imported. Manual transmissin. Petrol engine",
+    "imageUrl": "subaruLegacy.jpg",
+    "price": 3300
+  },
+  "aab4ca97-c6d6": {
+    "name": "BMW X3",
+    "description": "My babies car.",
+    "imageUrl": "bmw.png",
+    "price": 12000
+  },
+  "aaba0293-6382": {
+    "name": "Golf 5 ",
+    "description": "1.9 TDI",
+    "imageUrl": "golf.jpg",
+    "price": 6000
+  }
+}
