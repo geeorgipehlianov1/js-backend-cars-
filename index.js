@@ -7,6 +7,8 @@ const { details } = require('./controllers/details');
 const { home } = require('./controllers/home');
 const { notFound } = require('./controllers/notFound');
 const carsService = require('./services/cars')
+const deleteCar = require('./controllers/delete')
+const editCar = require('./controllers/edit')
 
 const app = express();
 
@@ -25,6 +27,10 @@ app.get('/about', about)
 app.get('/details/:id', details)
 app.get('/create', create.get)
 app.post('/create', create.post)
+app.get('/delete/:id', deleteCar.get)
+app.post('/delete/:id', deleteCar.post)
+app.get('/edit/:id', editCar.get)
+app.post('/edit/:id', editCar.post)
 
 app.all('*', notFound)
 
